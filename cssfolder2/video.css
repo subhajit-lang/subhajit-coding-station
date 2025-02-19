@@ -1,0 +1,46 @@
+p{
+    font-family:arial;
+    
+    margin-bottom:0;
+}
+.image{
+    width:50px;
+    height:50px;
+    object-fit:cover;
+    border-radius:30px;
+    margin-top:15px;
+}
+.divlite{
+    display:grid;
+    grid-template-columns:60px 60px 1fr;
+}
+.name{
+    vertical-align:top;
+    margin-top:10;
+    margin-bottom:0;
+    font-weight: bold;
+}
+.intro{
+    margin-top:0;
+    color:rgb(91, 87, 87);
+}
+.p2{
+     margin-top:0;
+    color:rgb(99, 96, 96);
+}
+.button{
+    margin-left:200px;
+    margin-top:30px;
+    padding-left:7px;
+    padding-right:7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color:rgb(62, 62, 228);
+    color:white;
+    font-size:15px;
+    border:none;
+}
+.maindiv{
+    display:grid;
+    grid-template-rows:1fr 1fr 1fr;
+}

@@ -1,0 +1,201 @@
+.search-bar{
+    flex:1;
+    height:32px;
+    font-size:20px;
+    padding-left:20px;
+    
+    border-width: 1px;
+    border-style: solid;
+    border-color:rgb(193, 184, 184);
+    border-radius:4px;
+    box-shadow:inset 1px 2px 5px
+    rgba(0, 0, 0, 0.15);
+    width:0;
+}
+.header{
+    display:flex;
+    flex-direction:row;
+    height:55px;
+    justify-content:space-between;
+    position: fixed;
+    left:0;
+    right:0;
+    top:0;
+    background-color:white;
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-bottom-color:rgb(208, 201, 201);
+    z-index:100;
+}
+.left-section{
+    display:flex;
+   align-items: center;
+   
+    
+}
+.middle-section{
+    
+    flex:1;
+    
+    margin-left:80px;
+    margin-right:30px;
+    max-width:500px;
+    display:flex;
+    align-items: center;
+    
+    
+
+}
+.search2{
+    width:20px;
+    height:20px;
+    margin-top:3px;
+    margin-bottom: 5px;
+    
+    
+   
+}
+.voice2{
+    width:20px;
+    height:20px;
+}
+
+
+.right-section{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-right:15px;
+    width:180px;
+    flex-shrink:0;
+}
+.left-icon{
+    height:20px;
+    width:20px;
+    margin-left:20px;
+    margin-right: 15px;
+    
+}
+.youtube-logo{
+    height:55px;
+    width:100px;
+    
+}
+.searchbar{
+    width:55px;
+    height:35px;
+    background-color: rgba(255, 255, 255, 0.91);
+    border-width:1px;
+    border-color:rgb(219, 215, 215);
+    cursor: pointer;
+    border-radius:4px;
+    position:relative;
+}
+.searchbar .pin{
+    position:absolute;
+    background-color: rgb(123, 119, 119);
+    color:white;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius:6px;
+    bottom:-30px;
+    opacity:0;
+    transition:opacity o.15s;
+    pointer-events: none;
+
+}
+.searchbar:hover .pin{
+    opacity:1;
+}
+.voice{
+  height:35px;
+  width:35px;
+  margin-left:7px;
+  border:none;
+  border-radius:30px;
+  background-color: rgb(228, 222, 222);
+  position:relative;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.voice .pin{
+    position:absolute;
+    background-color: rgb(123, 119, 119);
+    color:white;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius:6px;
+    bottom:-30px;
+    opacity:0;
+    transition:opacity o.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.voice:hover .pin{
+    opacity:1;
+}
+.right-image{
+    cursor: pointer;
+    
+    height:24px;
+}
+.right-image2{
+    cursor: pointer;
+    height:25px;
+}
+.right-image3{
+    cursor: pointer;
+    height:25px;
+
+}
+.right-image4{
+    width:35px;
+    height:35px;
+    border-radius:17px; 
+    cursor: pointer;
+}
+.notification{
+    position:relative;
+}
+.notification-icon{
+    position:absolute;
+    right:-1px;
+    top:-1px;
+    color:white;
+    background-color: #be0c0c;
+    border-radius:10px;
+    padding-left: 4px;
+    padding-right:4px;
+    padding-top:1px;
+    padding-bottom:1px;
+    font-size:10px;
+
+}
+.create{
+    position:relative;
+    display: flex;
+    justify-content: center;
+}
+.create .pin{
+    position:absolute;
+    background-color: rgb(123, 119, 119);
+    color:white;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius:6px;
+    bottom:-30px;
+    opacity:0;
+    transition:opacity o.15s;
+    pointer-events: none;
+    white-space: nowrap; 
+}
+.create:hover .pin{
+    opacity:1;
+}

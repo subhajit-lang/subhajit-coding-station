@@ -1,0 +1,56 @@
+.div1{
+    display:flex;
+    flex-direction:row;
+    width:450px;
+
+}
+.image1{
+    width:60px;
+    height:60px;
+    object-fit: cover;
+    border-radius:30px;
+    margin-right:10px;
+}
+.div3{
+    flex:1;
+}
+.div4{
+    font-weight:bold;
+    margin-right:5px;
+}
+.span{
+    color:rgb(63, 63, 230);
+}
+.div5{
+   line-height:20px;
+}
+.div6{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(189, 178, 178);
+    overflow:hidden;
+    margin-top:10px;
+    border-radius:5px;
+}
+.div7{
+    width:100px;
+    height:100px;
+    background-color: rgb(177, 166, 166);
+    
+}
+.div10{
+    flex:1;
+    margin-left:7px ;
+    
+}
+.div9{
+    color:blue;
+}
+.div8{
+    line-height:20px;
+    width:200px;
+}
+

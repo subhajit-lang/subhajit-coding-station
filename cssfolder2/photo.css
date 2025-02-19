@@ -1,0 +1,50 @@
+.maindiv{
+    display:flex;
+    flex-direction:row;
+    
+    border-width:1px;
+    margin-top:10px;
+    justify-content: space-between;
+    background-color: blueviolet;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    color:white;
+}
+.home{
+    font-weight:bold;
+    
+    
+    
+    
+    
+}
+.search-bar{
+    
+    width:500px;
+    border-radius: 15px;
+    border:none;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height:30px;
+    padding-left:20px;
+
+    
+
+
+}
+
+
+
+.download{
+    background-color: blueviolet;
+    color:white;
+    border-width:2px;
+    border-color:white;
+    border-width:1px;
+    border-style:solid;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
