@@ -1,0 +1,28 @@
+!pip install -U openai-whisper
+!pip install ffmpeg-python  # Use this instead of apt for Windows
+
+import whisper
+model = whisper.load_model("small")
+
+from IPython.display import display
+from ipywidgets import FileUpload
+
+# File upload widget
+uploader = FileUpload(accept='.mp3,.wav,.m4a', multiple=False)
+display(uploader)
+import io
+
+# Save the uploaded file
+for filename in uploader.value:
+    with open("audio.mp3.m4a", 'wb') as f:
+        f.write(uploader.value[filename]['content'])  # ✅ FIXED LINE
+
+# Set the audio path
+audio_path = "audio.mp3.m4a"
+print(f"Saved file as: {audio_path}")
+
+# Transcribe with Whisper
+result = model.transcribe(audio_path)
+result = model.transcribe("audio.mp3.m4a", language='en')
+print("Transcription:")
+print(result["text"])
